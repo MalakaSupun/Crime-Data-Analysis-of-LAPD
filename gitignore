@@ -1,0 +1,12 @@
+# Ignore Specific Files...
+Data_sets/Org_data.csv
+
+# Ignore all files in this folders...
+Data_sets/
+
+# Ignore all `.log` files
+*.log
+
+# Ignore system files
+.DS_Store
+*.swp
