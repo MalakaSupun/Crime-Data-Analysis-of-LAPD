@@ -22,4 +22,5 @@ The dataset used in this project is publicly available and can be accessed from 
 <p align="Justify">
 This project is undertaken to deepen my understanding and proficiency in SQL, Large Language Models (LLM), Natural Language Processing (NLP), and Artificial Intelligence (AI). By working on real-world crime data, I aim to enhance my skills in data querying, pattern recognition, and sentiment analysis. The integration of weather data with crime records provides a unique opportunity to explore the intersection of environmental factors and criminal activities. 🌐 This hands-on experience will not only solidify my technical expertise but also demonstrate my ability to apply AI-driven tools to derive actionable insights, thereby contributing to public safety research and advancing my career in the AI/ML domain. 🚀
 
-</d>
+#
+
