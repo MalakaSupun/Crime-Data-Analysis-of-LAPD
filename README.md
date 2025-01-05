@@ -1,6 +1,6 @@
 #
 <p align="center">
-  <img width="1024" src='Images/CDA_NYPD_IM_02.png' alt="Logo">
+  <img width="1024" src='Images/CDA_NYPD_IM_02.png' alt="Logo_01">
 </p>
 
 <h1 align="center">
