@@ -1,10 +1,10 @@
 #
 <p align="center">
-  <img width="1024" src='Images/CDA_NYPD_IM_02.png' alt="Logo_01">
+  <img width="1024" src='Images/LAPD_IMG_03.png' alt="Logo_01">
 </p>
 
 <h1 align="center">
-  The Crime Data Analysis of NAPD.
+  The Crime Data Analysis of LAPD.
 </h1>
 
 ## 🧩 Introduction:
@@ -20,7 +20,7 @@ The dataset used in this project is publicly available and can be accessed from 
 [Crime Data from 2020 to Present](https://catalog.data.gov/dataset/crime-data-from-2020-to-present). 
 
 <p align="center">
-  <img width="724" src='Images/CDA_NYPD_IM_05.png' alt="Logo_02">
+  <img width="724" src='Images/LAPD_IMG_02.png' alt="Logo_02">
 </p>
 <p align="Justify">
 This dataset includes detailed records of criminal incidents reported in Los Angeles from the year 2020 to the present (used dataset contains data till 18/12/2024). It contains various attributes such as the date and time of the incident, location, type of crime, and descriptions, which are crucial for conducting a thorough analysis of crime patterns and trends over time. 📊
