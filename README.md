@@ -14,8 +14,12 @@ This project aims to explore and analyse crime patterns in Los Angeles using a d
 
 #
 ## 🗄️  Data Set:
-<p align="Justify">
-The dataset used in this project is publicly available and can be accessed from the following link:[ Crime Data from 2020 to Present](https://catalog.data.gov/dataset/crime-data-from-2020-to-present). This dataset includes detailed records of criminal incidents reported in Los Angeles from the year 2020 to the present (used dataset contains data till 18/12/2024). It contains various attributes such as the date and time of the incident, location, type of crime, and descriptions, which are crucial for conducting a thorough analysis of crime patterns and trends over time. 📊
+<d align="Justify">
+The dataset used in this project is publicly available and can be accessed from the following link:  
+
+[Crime Data from 2020 to Present](https://catalog.data.gov/dataset/crime-data-from-2020-to-present). 
+
+This dataset includes detailed records of criminal incidents reported in Los Angeles from the year 2020 to the present (used dataset contains data till 18/12/2024). It contains various attributes such as the date and time of the incident, location, type of crime, and descriptions, which are crucial for conducting a thorough analysis of crime patterns and trends over time. 📊
 
 #
 ## 🤔 Why Doing This Project:
