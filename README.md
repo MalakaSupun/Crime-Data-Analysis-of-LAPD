@@ -36,3 +36,5 @@ This project is undertaken to deepen my understanding and proficiency in SQL, La
 <p align="center">
   <img width="724" src='Images/LAPD_IMG_04.png' alt="Logo_02">
 </p>
+
+---
