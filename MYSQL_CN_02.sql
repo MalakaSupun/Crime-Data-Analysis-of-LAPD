@@ -1,0 +1,1 @@
+DROP DATABASE LAPD_Crime_Data;

@@ -39,6 +39,7 @@ CREATE TABLE crime_data (
     Wind_Direction FLOAT NOT NULL,  
     Windspeed_kmh FLOAT NOT NULL,   
     Air_pressure_hPa FLOAT NOT NULL,
-    Rainy_Day INT NOT NULL,    
-    PRIMARY KEY (DR_NO)     
+    Rainy_Day INT NOT NULL   
   );
+
+
