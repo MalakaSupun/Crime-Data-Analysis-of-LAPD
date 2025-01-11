@@ -1,11 +1,11 @@
 # Ignore Specific Files...
 Data_sets/Org_data.csv
 git_commands.txt
-.vscode/
+Data_sets/Ready_dataset.csv
 
 # Ignore all files in this folders...
-Data_sets/
 
+.vscode/
 # Ignore all `.log` files
 *.log
 
