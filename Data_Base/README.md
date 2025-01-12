@@ -1,5 +1,9 @@
 ### Operations of Cleaning Data and adding more parameters:
 
+<p align="center">
+  <img width="1024" src='../Images/LAPD_IMG_04.png' alt="Logo_01">
+</p>
+
 1. **Data Cleaning 🧹:**
     - Loaded the original dataset (`Org_data.csv`).
     - Handled missing values by dropping rows with missing latitude or longitude.
