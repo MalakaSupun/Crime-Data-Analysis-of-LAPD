@@ -3,7 +3,7 @@
 
 #
 <p align="center">
-  <img width="1024" src='../Images/LAPD_IMG_01.png' alt="Logo_01">
+  <img width="1024" src='../Images/LAPD_IMG_05.png' alt="Logo_01">
 </p>
 
 ---
