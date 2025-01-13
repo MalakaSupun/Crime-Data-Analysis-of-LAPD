@@ -1,7 +1,7 @@
 ### Operations of Cleaning Data and adding more parameters:
 
 <p align="center">
-  <img width="1024" src='../Images/LAPD_IMG_04.png' alt="Logo_01">
+  <img width="1024" src='../Images/LAPD_IMG_06.png' alt="Logo_01">
 </p>
 
 ---
