@@ -1,4 +1,9 @@
-# Crime Data Analysis of LAPD
+# next steps for the project:
+
+<p align="center">
+  <img width="1024" src='Images/LAPD_IMG_10.png' alt="Logo_01">
+</p>
+
 
 ## Step 1: Understand the Data
 
