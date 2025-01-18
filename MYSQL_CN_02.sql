@@ -1,1 +1,8 @@
 DROP DATABASE LAPD_Crime_Data;
+--Data statments
+
+--Check for Missing Data
+
+SELECT COLUMN_NAME, COUNT(*), COUNT(COLUMN_NAME) 
+FROM CrimeData
+GROUP BY COLUMN_NAME;
