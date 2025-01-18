@@ -1,5 +1,6 @@
 USE LAPD_Crime_Data;
 
+--All the columns of the dataset.... 
 CREATE TABLE crime_data (
     DR_NO BIGINT NOT NULL,          
     Date_Rptd DATE NOT NULL,        
