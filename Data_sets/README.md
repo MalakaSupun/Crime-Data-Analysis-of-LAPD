@@ -228,7 +228,10 @@ finally:
 
 ## SQL 🗄️
 This section is dedicated to SQL operations and queries.
-```markdown
 
-```
+### Export Data set:
+Can export the SQL database to a .sql file and upload it to a GitHub repository. This allows to version control your database schema and data, making it easier to share and collaborate with others.
+
+```sql
+mysqldump -u username -p database_name > database_dump.sql
 ```
