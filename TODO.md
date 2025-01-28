@@ -1,7 +1,7 @@
 # next steps for the project:
 
 <p align="center">
-  <img width="1024" src='Images/LAPD_IMG_09s.png' alt="Logo_01">
+  <img width="1024" src='Images/LAPD_IMG_11.png' alt="Logo_01">
 </p>
 
 
