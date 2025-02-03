@@ -99,4 +99,26 @@ This project is undertaken to deepen my understanding and proficiency in SQL, La
   <img width="724" src='Images/LAPD_IMG_04.png' alt="Logo_02">
 </p>
 
+## 📈 Basic Analysis:
+
+### ⏰ Crime vs Time:
+
+### 🔍 Mostly Happened Crime Types:
+
+### 🕵️ Least Happened Crime Types:
+
+### 📍 Crimes and Locations:
+
+### 🗃️ Unsolved Crimes:
+
+
+
+
+
+
+
+
+
+
+
 ---
