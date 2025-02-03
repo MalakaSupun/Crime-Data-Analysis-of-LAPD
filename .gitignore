@@ -12,3 +12,6 @@ Data_sets/Ready_dataset.csv
 # Ignore system files
 .DS_Store
 *.swp
+
+# Test python code.
+*.py
