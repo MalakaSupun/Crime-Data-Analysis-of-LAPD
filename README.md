@@ -25,6 +25,68 @@ The dataset used in this project is publicly available and can be accessed from 
 <p align="Justify">
 This dataset includes detailed records of criminal incidents reported in Los Angeles from the year 2020 to the present (used dataset contains data till 18/12/2024). It contains various attributes such as the date and time of the incident, location, type of crime, and descriptions, which are crucial for conducting a thorough analysis of crime patterns and trends over time. 📊
 
+### 📊 Refine Dataset:
+
+To make the final dataset, I have added new columns containing,
+- Year 
+- Month 
+- Date/Time 
+- Temperature (°C) 
+- Dew point (°C) 
+- Humidity (%)  
+- Precipitation (mm) 
+- Wind Direction(degrees°) 
+- Windspeed (km/h) 
+- Air pressure (hPa) 
+- Rainy Day or Not
+
+The weather data was extracted based on the date and time using the 'meteostat' Python package.
+
+<div align="center">
+
+| No  | Column                    | Non-Null Count         | Dtype   | Description                                           |
+| --- | --------------------------| ---------------------- | ------- | ----------------------------------------------------- |
+| 0   | DR_NO                      | 989329 non-null        | int64   | Unique report numbers                                 |
+| 1   | Date Rptd                  | 989329 non-null        | object  | Date when crime was reported                          |
+| 2   | DATE OCC                   | 989329 non-null        | object  | Date when crime occurred                              |
+| 3   | TIME OCC                   | 989329 non-null        | object  | Time of occurrence (HHMM format)                      |
+| 4   | AREA                       | 989329 non-null        | int64   | Numeric code for police area                          |
+| 5   | AREA NAME                  | 989329 non-null        | object  | Name of the police area                               |
+| 6   | Rpt Dist No                | 989329 non-null        | int64   | Reporting district number                             |
+| 7   | Part 1-2                   | 989329 non-null        | int64   | Crime classification (1 = serious, 2 = less serious)  |
+| 8   | Crm Cd                     | 989329 non-null        | int64   | Crime code                                            |
+| 9   | Crm Cd Desc                | 989329 non-null        | object  | Description of the crime                              |
+| 10  | Mocodes                    | 840950 non-null        | object  | Modus operandi codes                                  |
+| 11  | Vict Age                   | 989329 non-null        | int64   | Age of victim (range: min to max)                     |
+| 12  | Vict Sex                   | 989329 non-null        | float64 | Sex of victim (1=Male, 2=Female)                      |
+| 13  | Vict Descent               | 847756 non-null        | object  | Victim's ethnic descent                               |
+| 14  | Premis Cd                  | 989313 non-null        | float64 | Code for crime premises                               |
+| 15  | Premis Desc                | 988761 non-null        | object  | Description of crime location                         |
+| 16  | Weapon Used Cd             | 324301 non-null        | float64 | Code for weapon used                                  |
+| 17  | Weapon Desc                | 324301 non-null        | object  | Description of weapon used                            |
+| 18  | Status                     | 989328 non-null        | object  | Status of investigation (open/closed)                 |
+| 19  | Status Desc                | 989329 non-null        | object  | Description of case status                            |
+| 20  | Crm Cd 1                   | 989318 non-null        | float64 | Secondary crime code                                  |
+| 21  | Crm Cd 2                   | 68823 non-null         | float64 | Tertiary crime code                                   |
+| 22  | Crm Cd 3                   | 2312 non-null          | float64 | Additional crime code                                 |
+| 23  | Crm Cd 4                   | 61 non-null            | float64 | Fourth crime code                                     |
+| 24  | LOCATION                   | 989329 non-null        | object  | Crime location address                                |
+| 25  | Cross Street               | 151168 non-null        | object  | Nearest cross street                                  |
+| 26  | LAT                        | 989329 non-null        | float64 | Latitude of crime location                            |
+| 27  | LON                        | 989329 non-null        | float64 | Longitude of crime location                           |
+| 28  | Year                       | 989329 non-null        | int64   | Year of occurrence                                    |
+| 29  | Month                      | 989329 non-null        | int64   | Month of occurrence                                   |
+| 30  | Date/Time                  | 989329 non-null        | object  | Combined date and time of occurrence                  |
+| 31  | Temperature (°C)           | 989329 non-null        | float64 | Temperature during crime (mean: X°C, min: Y°C)       |
+| 32  | Dew point (°C)             | 989329 non-null        | float64 | Dew point during crime                                |
+| 33  | Humidity (%)               | 989329 non-null        | float64 | Humidity level (%) at the time of the crime           |
+| 34  | Precipitation (mm)         | 989329 non-null        | float64 | Rainfall in mm during crime                           |
+| 35  | Wind Direction(degrees°)   | 989329 non-null        | float64 | Wind direction in degrees                             |
+| 36  | Windspeed (km/h)           | 989329 non-null        | float64 | Wind speed in km/h                                    |
+| 37  | Air pressure (hPa)         | 989329 non-null        | float64 | Air pressure during the incident                      |
+| 38  | Rainy Day                  | 989329 non-null        | int64   | Indicator if it was a rainy day (1=Yes, 0=No)         |
+</div>
+
 #
 ## 🤔 Why Doing This Project:
 <p align="Justify">
