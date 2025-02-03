@@ -42,7 +42,7 @@ To make the final dataset, I have added new columns containing,
 
 The weather data was extracted based on the date and time using the 'meteostat' Python package.
 
-<div align="center">
+<div align='center'>
 
 | No  | Column                    | Non-Null Count         | Dtype   | Description                                           |
 | --- | --------------------------| ---------------------- | ------- | ----------------------------------------------------- |
