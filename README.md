@@ -101,16 +101,46 @@ This project is undertaken to deepen my understanding and proficiency in SQL, La
 
 ## 📈 Basic Analysis:
 
+
 ### ⏰ Crime vs Time:
+
+<p align="center">
+  <img width="724" src='Analysis/Images/IMG_01_Crime_by_hour.png' alt="Logo_02">
+</p>
+
+<p align="center">
+  <img width="724" src='Analysis/Images/IMG_04_Crime_by_week.png' alt="Logo_02">
+</p>
+
+### 🌡️ Crimes and Temperature:
+
+<p align="center">
+  <img width="724" src='Analysis/Images/IMG_03_Crime_by_temp.png' alt="Logo_02">
+</p>
 
 ### 🔍 Mostly Happened Crime Types:
 
+<p align="center">
+  <img width="724" src='Analysis/Images/IMG_02_Crimes_by_amount.png' alt="Logo_02">
+</p>
+
 ### 🕵️ Least Happened Crime Types:
+
+<p align="center">
+  <img width="724" src='Analysis/Images alt="Logo_02">
+</p>
 
 ### 📍 Crimes and Locations:
 
+<p align="center">
+  <img width="724" src='Analysis/Images' alt="Logo_02">
+</p>
+
 ### 🗃️ Unsolved Crimes:
 
+<p align="center">
+  <img width="724" src='Analysis/Images' alt="Logo_02">
+</p>
 
 
 
