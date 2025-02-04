@@ -92,11 +92,11 @@ The weather data was extracted based on the date and time using the 'meteostat' 
 <p align="Justify">
 This project is undertaken to deepen my understanding and proficiency in SQL, Large Language Models (LLM), Natural Language Processing (NLP), and Artificial Intelligence (AI). By working on real-world crime data, I aim to enhance my skills in data querying, pattern recognition, and sentiment analysis. The integration of weather data with crime records provides a unique opportunity to explore the intersection of environmental factors and criminal activities. 🌐 This hands-on experience will not only solidify my technical expertise but also demonstrate my ability to apply AI-driven tools to derive actionable insights, thereby contributing to public safety research and advancing my career in the AI/ML domain. 🚀
 
-#
+
 
 
 <p align="center">
-  <img width="724" src='Images/LAPD_IMG_04.png' alt="Logo_02">
+  <img width="604" src='Images/LAPD_IMG_12.png' alt="Logo_02">
 </p>
 
 ## 📈 Basic Analysis:
@@ -136,7 +136,7 @@ This project is undertaken to deepen my understanding and proficiency in SQL, La
   <img width="724" src='Analysis/Images' alt="Logo_02">
 </p>
 
-### 🗃️ Unsolved Crimes:
+### 🗃️ Unsolved Crimes: 
 
 <p align="center">
   <img width="724" src='Analysis/Images' alt="Logo_02">
