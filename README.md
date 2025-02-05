@@ -117,6 +117,8 @@ of weather data with crime records provides a unique opportunity to explore the 
   detailed look at the findings from our comprehensive analysis.
 </p>
 
+#### All Types of crimes committed:
+
 <p align="center">
   <img width="724" src='Analysis/Images/IMG_02_Crimes_by_amount.png' alt="Logo_02">
 </p>
@@ -202,7 +204,22 @@ ORDER BY CrimeCount DESC
 
 ### 🗃️ Status of the Crimes: 
 <div align="justify">
-It looks like the majority of cases are still under investigation, which could be interesting when you start analysing trends over time or by crime type! 
+It looks like the majority of cases are still under investigation, which could be interesting
+when you start analysing trends over time or by crime type! 
+
+**MySQL Query:**
+
+```
+USE LAPD_Crime_Data;
+SELECT 
+     Status_Desc AS Current_Crime_Investigation_Type,
+     COUNT(*) AS Crime_Type_Count
+FROM 
+	crime_data
+GROUP BY Current_Crime_Investigation_Type
+ORDER BY Crime_Type_Count DESC
+
+```
 
 - **Invest Cont (Investigation Continued) – 789,779 cases**
 The investigation is still ongoing, and no final outcome has been determined yet. This is the most common status, indicating open cases.
@@ -224,7 +241,42 @@ The status of these cases is unclear or not recorded.
 
 </div>
 
-####
+#### Most Happened Crime in each Catagory:
+
+Below Query will show most happend crime in each Catagory.
+
+```
+USE LAPD_Crime_Data;
+
+WITH Ranked_Crimes AS (
+    SELECT 
+        Status_Desc AS Current_Crime_Investigation_Type,
+        Crm_Cd_Desc AS Crime_Type_Description,
+        COUNT(*) AS Crime_Count,
+        ROW_NUMBER() OVER (
+            PARTITION BY Status_Desc 
+            ORDER BY COUNT(*) DESC
+        ) AS Rank_Position
+    FROM 
+        crime_data
+    GROUP BY 
+        Status_Desc, 
+        Crm_Cd_Desc
+)
+
+SELECT 
+    Current_Crime_Investigation_Type,
+    Crime_Type_Description,
+    Crime_Count
+FROM 
+    Ranked_Crimes
+WHERE 
+    Rank_Position <= 10
+ORDER BY 
+    Current_Crime_Investigation_Type ASC, 
+    Crime_Count DESC;
+
+```
 
 
 <p align="center">
