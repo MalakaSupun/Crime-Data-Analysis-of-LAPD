@@ -101,12 +101,17 @@ This project is undertaken to deepen my understanding and proficiency in SQL, La
 
 ## 📈 Basic Analysis:
 
+In this section, we delve into the results of our data analysis, examining various aspects of crime in Los Angeles. Through visualizations and statistical summaries, we explore temporal patterns, the impact of weather conditions on crime rates, and the prevalence of different crime types. By analyzing the data, we aim to uncover significant trends and insights that can inform public safety strategies and enhance our understanding of crime dynamics in the city. The following subsections provide a detailed look at the findings from our comprehensive analysis.
+
 
 ### ⏰ Crime vs Time:
 
+#### ⏱️ Crimes Committed According to Hour:
 <p align="center">
   <img width="724" src='Analysis/Images/IMG_01_Crime_by_hour.png' alt="Logo_02">
 </p>
+
+#### 📅 Crimes Committed According to Day of the Week:
 
 <p align="center">
   <img width="724" src='Analysis/Images/IMG_04_Crime_by_week.png' alt="Logo_02">
