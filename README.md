@@ -156,7 +156,7 @@ of weather data with crime records provides a unique opportunity to explore the 
 
 ### 🔍 Mostly Happened Crime Types:
 
-MySQL Query:
+**MySQL Query:**
 ```
 USE LAPD_Crime_Data;
 SELECT 
@@ -176,7 +176,7 @@ ORDER BY CrimeCount DESC
 
 ### 🕵️ Least Happened Crime Types:
 
-MySQL Query:
+**MySQL Query:**
 ```
 USE LAPD_Crime_Data;
 SELECT 
@@ -200,17 +200,36 @@ ORDER BY CrimeCount DESC
   <img width="724" src='Analysis/Images' alt="Logo_02">
 </p>
 
-### 🗃️ Unsolved Crimes: 
+### 🗃️ Status of the Crimes: 
+<div align="justify">
+It looks like the majority of cases are still under investigation, which could be interesting when you start analysing trends over time or by crime type! 
+
+- **Invest Cont (Investigation Continued) – 789,779 cases**
+The investigation is still ongoing, and no final outcome has been determined yet. This is the most common status, indicating open cases.
+
+- **Adult Other – 108,049 cases**
+Cases involving adults that didn't result in an arrest but may have other outcomes like citations, warnings, or cases referred to other agencies.
+
+- **Adult Arrest – 86,363 cases**
+The suspect involved is an adult, and they were formally arrested.
+
+- **Juv Arrest (Juvenile Arrest) – 3,293 cases**
+A minor (under 18) was arrested.
+
+- **Juv Other (Juvenile Other) – 1,838 cases**
+Cases involving minors that didn’t lead to an arrest but could include warnings, diversions, or referrals to juvenile services.
+
+- **UNK (Unknown) – 7 cases**
+The status of these cases is unclear or not recorded.
+
+</div>
+
+####
+
 
 <p align="center">
   <img width="724" src='Analysis/Images' alt="Logo_02">
 </p>
-
-
-
-
-
-
 
 
 
