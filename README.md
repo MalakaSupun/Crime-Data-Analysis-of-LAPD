@@ -90,7 +90,13 @@ The weather data was extracted based on the date and time using the 'meteostat' 
 #
 ## 🤔 Why Doing This Project:
 <p align="Justify">
-This project is undertaken to deepen my understanding and proficiency in SQL, Large Language Models (LLM), Natural Language Processing (NLP), and Artificial Intelligence (AI). By working on real-world crime data, I aim to enhance my skills in data querying, pattern recognition, and sentiment analysis. The integration of weather data with crime records provides a unique opportunity to explore the intersection of environmental factors and criminal activities. 🌐 This hands-on experience will not only solidify my technical expertise but also demonstrate my ability to apply AI-driven tools to derive actionable insights, thereby contributing to public safety research and advancing my career in the AI/ML domain. 🚀
+This project is undertaken to deepen my understanding and proficiency in SQL, Large Language Models (LLM), 
+Natural Language Processing (NLP), and Artificial Intelligence (AI). By working on real-world crime data, 
+I aim to enhance my skills in data querying, pattern recognition, and sentiment analysis. The integration 
+of weather data with crime records provides a unique opportunity to explore the intersection of environmental
+ factors and criminal activities. 🌐 This hands-on experience will not only solidify my technical expertise 
+ but also demonstrate my ability to apply AI-driven tools to derive actionable insights, thereby contributing 
+ to public safety research and advancing my career in the AI/ML domain. 🚀
 
 
 
@@ -101,10 +107,30 @@ This project is undertaken to deepen my understanding and proficiency in SQL, La
 
 ## 📈 Basic Analysis:
 
-In this section, we delve into the results of our data analysis, examining various aspects of crime in Los Angeles. Through visualizations and statistical summaries, we explore temporal patterns, the impact of weather conditions on crime rates, and the prevalence of different crime types. By analyzing the data, we aim to uncover significant trends and insights that can inform public safety strategies and enhance our understanding of crime dynamics in the city. The following subsections provide a detailed look at the findings from our comprehensive analysis.
-
+<p align="justify">
+  In this section, we delve into the results of our data analysis, examining various 
+  aspects of crime in Los Angeles. Through visualizations and statistical summaries,
+  we explore temporal patterns, the impact of weather conditions on crime rates, and 
+  the prevalence of different crime types. By analyzing the data, we aim to uncover 
+  significant trends and insights that can inform public safety strategies and enhance 
+  our understanding of crime dynamics in the city. The following subsections provide a 
+  detailed look at the findings from our comprehensive analysis.
+</p>
 
 ### ⏰ Crime vs Time:
+
+<p align="justify">
+  Analyzing crime data over different time periods reveals significant patterns that can
+  help in understanding the temporal dynamics of criminal activities. By examining the
+  distribution of crimes committed at various hours of the day, days of the week, and
+  months of the year, we can identify peak times for criminal activities. This 
+  information is crucial for law enforcement agencies to allocate resources more 
+  effectively and implement targeted interventions. The analysis shows that certain 
+  hours, particularly late at night and early morning, have higher crime rates, while 
+  weekends tend to see a spike in incidents compared to weekdays. Understanding these
+  temporal trends is essential for developing strategies to prevent and reduce crime 
+  in Los Angeles.
+</p>
 
 #### ⏱️ Crimes Committed According to Hour:
 <p align="center">
