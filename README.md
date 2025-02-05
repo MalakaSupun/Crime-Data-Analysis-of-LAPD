@@ -117,6 +117,11 @@ of weather data with crime records provides a unique opportunity to explore the 
   detailed look at the findings from our comprehensive analysis.
 </p>
 
+<p align="center">
+  <img width="724" src='Analysis/Images/IMG_02_Crimes_by_amount.png' alt="Logo_02">
+</p>
+
+
 ### ⏰ Crime vs Time:
 
 <p align="justify">
@@ -151,11 +156,39 @@ of weather data with crime records provides a unique opportunity to explore the 
 
 ### 🔍 Mostly Happened Crime Types:
 
+MySQL Query:
+```
+USE LAPD_Crime_Data;
+SELECT 
+     Crm_Cd_Desc AS Crime_Type,
+     COUNT(*) AS CrimeCount
+FROM 
+	crime_data
+GROUP BY Crime_type
+HAVING CrimeCount >= "1000"
+ORDER BY CrimeCount DESC
+
+```
+
 <p align="center">
-  <img width="724" src='Analysis/Images/IMG_02_Crimes_by_amount.png' alt="Logo_02">
+  <img width="724" src='Analysis/Images/IMG_02_Cries_by_amount.png' alt="Logo_02">
 </p>
 
 ### 🕵️ Least Happened Crime Types:
+
+MySQL Query:
+```
+USE LAPD_Crime_Data;
+SELECT 
+     Crm_Cd_Desc AS Crime_Type,
+     COUNT(*) AS CrimeCount
+FROM 
+	crime_data
+GROUP BY Crime_type
+HAVING CrimeCount >= "1000"
+ORDER BY CrimeCount DESC
+
+```
 
 <p align="center">
   <img width="724" src='Analysis/Images alt="Logo_02">
