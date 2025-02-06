@@ -10,7 +10,8 @@
 ## 🧩 Introduction:
 
 <p align="Justify">
-This project aims to explore and analyse crime patterns in Los Angeles using a dataset spanning from 2020 to the present. The primary focus is to extract meaningful insights by integrating structured data analysis and advanced techniques in SQL and Natural Language Processing (NLP). 🌦️ Weather data is merged with crime records to study the relationship between climatic conditions and criminal activities. SQL is utilised for efficient querying and pattern identification, while NLP is applied to crime descriptions to uncover trends, classify incidents, and perform sentiment analysis. This comprehensive analysis will help understand temporal, spatial, and contextual crime patterns, providing valuable insights into crime dynamics in the city. The project not only demonstrates technical expertise in SQL, MySQL, and Python but also showcases the ability to integrate AI-driven tools for actionable data insights, making it an impactful contribution to public safety research and career aspirations in the AI/ML domain. 🧠
+This project aims to explore and analyse crime patterns in Los Angeles using a dataset spanning from 
+2020 to the present(2024/08/30). The primary focus is to extract meaningful insights by integrating structured data analysis and advanced techniques in SQL and Natural Language Processing (NLP). 🌦️ Weather data is merged with crime records to study the relationship between climatic conditions and criminal activities. SQL is utilised for efficient querying and pattern identification, while NLP is applied to crime descriptions to uncover trends, classify incidents, and perform sentiment analysis. This comprehensive analysis will help understand temporal, spatial, and contextual crime patterns, providing valuable insights into crime dynamics in the city. The project not only demonstrates technical expertise in SQL, MySQL, and Python but also showcases the ability to integrate AI-driven tools for actionable data insights, making it an impactful contribution to public safety research and career aspirations in the AI/ML domain. 🧠
 
 #
 ## 🗄️  Data Set:
@@ -212,6 +213,11 @@ ORDER BY CrimeCount DESC
 ```
 
 <p align="center">
+  <img width="724" src='Analysis/Images/IMG_05_Mostly_happend_crimes.png' alt="Logo_02">
+</p>
+
+
+<p align="center">
   <img width="724" src='Analysis/Images/IMG_02_Cries_by_amount.png' alt="Logo_02">
 </p>
 
@@ -232,7 +238,7 @@ ORDER BY CrimeCount DESC
 ```
 
 <p align="center">
-  <img width="724" src='Analysis/Images alt="Logo_02">
+  <img width="724" src='Analysis/Images/IMG_06_Least_happend_crimes.png' alt="Logo_02">
 </p>
 
 ### 📍 Crimes and Locations:
@@ -280,7 +286,7 @@ The status of these cases is unclear or not recorded.
 
 </div>
 
-#### Most Happened Crime in each Catagory:
+#### Mostly Happened Crime in each Catagory:
 
 Below Query will show most happend crime in each Catagory.
 
@@ -310,7 +316,7 @@ SELECT
 FROM 
     Ranked_Crimes
 WHERE 
-    Rank_Position <= 10
+    Rank_Position <= 30
 ORDER BY 
     Current_Crime_Investigation_Type ASC, 
     Crime_Count DESC;
@@ -318,7 +324,7 @@ ORDER BY
 ```
 
 <p align="center">
-  <img width="724" src='Analysis/Images' alt="Logo_02">
+  <img width="724" src='Analysis/Images.png' alt="Logo_02">
 </p>
 
 
