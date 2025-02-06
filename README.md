@@ -117,10 +117,49 @@ of weather data with crime records provides a unique opportunity to explore the 
   detailed look at the findings from our comprehensive analysis.
 </p>
 
-#### All Types of crimes committed:
+### 🕵️ All Types of Crimes Committed:
+
+<p align="justify">
+  Understanding the variety of crimes committed in Los Angeles is crucial for developing comprehensive crime prevention strategies. By categorizing and analyzing different types of crimes, we can identify which crimes are most prevalent and which are less common. This information helps law enforcement agencies prioritize their efforts and resources effectively. The following analysis provides a detailed overview of all types of crimes committed, highlighting both the most and least frequent crime types. This insight is essential for tailoring public safety measures and enhancing community awareness about crime trends in the city.
+</p>
 
 <p align="center">
   <img width="724" src='Analysis/Images/IMG_02_Crimes_by_amount.png' alt="Logo_02">
+</p>
+
+#### 🔍 Mostly Happened Crime Types:
+
+**MySQL Query:**
+```
+USE LAPD_Crime_Data;
+SELECT 
+     Crm_Cd_Desc AS Crime_Type,
+     COUNT(*) AS CrimeCount
+FROM 
+  crime_data
+GROUP BY Crime_type
+HAVING CrimeCount >= "1000"
+ORDER BY CrimeCount DESC
+```
+
+
+#### 🕵️ Least Happened Crime Types:
+
+**MySQL Query:**
+```
+USE LAPD_Crime_Data;
+SELECT 
+     Crm_Cd_Desc AS Crime_Type,
+     COUNT(*) AS CrimeCount
+FROM 
+  crime_data
+GROUP BY Crime_type
+HAVING CrimeCount < "1000"
+ORDER BY CrimeCount DESC
+```
+
+<p align="center">
+  <img width="724" src='Analysis/Images/IMG_03_Least_Crimes.png' alt="Logo_02">
 </p>
 
 
@@ -277,7 +316,6 @@ ORDER BY
     Crime_Count DESC;
 
 ```
-
 
 <p align="center">
   <img width="724" src='Analysis/Images' alt="Logo_02">
