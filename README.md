@@ -154,6 +154,14 @@ Below is a graph depicting the distribution of crimes committed by the hour of t
 </p>
 
 
+#### ⏱️ Most Common Crimes by Hour:
+
+<p align="justify">
+  The analysis of the most common crimes by hour provides valuable insights into the temporal distribution of criminal activities in Los Angeles. By identifying the specific hours during which different types of crimes are most frequently committed, law enforcement agencies can better allocate their resources and implement targeted interventions. This detailed examination of crime patterns by hour helps in understanding the peak times for various criminal
+
+<p align="center">
+  <img width="724" src='Analysis/Images/IMG_07_Crime by Hour and Mostly Happened Crimes.png' alt="Logo_02">
+</p>
 
 
 
