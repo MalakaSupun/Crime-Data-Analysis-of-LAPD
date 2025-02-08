@@ -125,7 +125,7 @@ of weather data with crime records provides a unique opportunity to explore the 
 </p>
 
 <p align="center">
-  <img width="724" src='Analysis/Images/IMG_02_Crimes_by_amount.png' alt="Logo_02">
+  <img width="1724" src='Analysis/Images/IMG_02_Crimes_by_amount.png' alt="Logo_02">
 </p>
 
 
