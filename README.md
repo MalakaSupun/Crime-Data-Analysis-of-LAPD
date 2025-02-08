@@ -300,6 +300,10 @@ ORDER BY Crime_Type_Count DESC
 
 ```
 
+<p align="center">
+  <img width="724" src='Analysis/Images/IMG_08_Investigation_Status_All.png' alt="Logo_02">
+</p>
+
 - **Invest Cont (Investigation Continued) – 789,779 cases**
 The investigation is still ongoing, and no final outcome has been determined yet. This is the most common status, indicating open cases.
 
@@ -358,7 +362,7 @@ ORDER BY
 ```
 
 <p align="center">
-  <img width="724" src='Analysis/Images.png' alt="Logo_02">
+  <img width="724" src='Analysis/Images/IMG_08_Investigation_Status.png' alt="Logo_02">
 </p>
 
 
