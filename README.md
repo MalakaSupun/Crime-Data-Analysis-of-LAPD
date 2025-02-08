@@ -159,6 +159,48 @@ Below is a graph depicting the distribution of crimes committed by the hour of t
 <p align="justify">
   The analysis of the most common crimes by hour provides valuable insights into the temporal distribution of criminal activities in Los Angeles. By identifying the specific hours during which different types of crimes are most frequently committed, law enforcement agencies can better allocate their resources and implement targeted interventions. This detailed examination of crime patterns by hour helps in understanding the peak times for various criminal
 
+#### MySQL Query:
+```
+USE LAPD_Crime_Data;
+
+WITH HourlyCrime AS (
+    SELECT 
+        CONCAT(
+            LPAD(HOUR(Time_OCC), 2, '0'), ':', '00'
+        ) AS Hour,
+        Crm_Cd_Desc AS CrimeType,
+        COUNT(*) AS CrimeCount
+    FROM crime_data
+    GROUP BY CONCAT(LPAD(HOUR(Time_OCC), 2, '0'), ':', '00'), CrimeType
+), CrimeTotals AS (
+    SELECT 
+        CONCAT(
+            LPAD(HOUR(Time_OCC), 2, '0'), ':', '00'
+        ) AS Hour,
+        COUNT(*) AS TotalCrimes
+    FROM crime_data
+    GROUP BY CONCAT(LPAD(HOUR(Time_OCC), 2, '0'), ':', '00')
+), RankedCrimes AS (
+    SELECT 
+        h.Hour,
+        c.TotalCrimes,
+        h.CrimeType,
+        h.CrimeCount,
+        RANK() OVER (PARTITION BY h.Hour ORDER BY h.CrimeCount DESC) AS ranks
+    FROM HourlyCrime h
+    JOIN CrimeTotals c ON h.Hour = c.Hour
+)
+SELECT 
+    Hour,
+    TotalCrimes AS `Total Crime Happened`,
+    CrimeType AS `Mostly Happened Crimes`,
+    CrimeCount AS `Amount`
+FROM RankedCrimes
+WHERE ranks <= 5
+ORDER BY Hour, ranks
+LIMIT 1000000;
+```
+
 <p align="center">
   <img width="724" src='Analysis/Images/IMG_07_Crime by Hour and Mostly Happened Crimes.png' alt="Logo_02">
 </p>
@@ -198,9 +240,6 @@ ORDER BY CrimeCount DESC
 </p>
 
 
-<p align="center">
-  <img width="724" src='Analysis/Images/IMG_02_Cries_by_amount.png' alt="Logo_02">
-</p>
 
 ### 🕵️ Least Happened Crime Types:
 
