@@ -243,6 +243,17 @@ ORDER BY CrimeCount DESC
 
 ### 🕵️ Least Happened Crime Types:
 
+<p align="justify">
+  Understanding the least common crimes committed in Los Angeles is equally important
+   for developing targeted crime prevention strategies. By identifying and analyzing 
+   these less frequent crimes, law enforcement agencies can ensure that even the 
+   rarest incidents are addressed and resources are allocated appropriately. This 
+   analysis provides a detailed overview of the least common crimes, highlighting 
+   the types of crimes that occur infrequently but still require attention. This 
+   insight is crucial for comprehensive public safety measures and for understanding 
+   the full spectrum of criminal activities in the city.
+</p>
+
 **MySQL Query:**
 ```
 USE LAPD_Crime_Data;
@@ -263,9 +274,12 @@ ORDER BY CrimeCount DESC
 
 ### 📍 Crimes and Locations:
 
+
+
 <p align="center">
   <img width="724" src='Analysis/Images' alt="Logo_02">
 </p>
+
 
 ### 🗃️ Status of the Crimes: 
 <div align="justify">
