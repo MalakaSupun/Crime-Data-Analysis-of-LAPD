@@ -128,40 +128,6 @@ of weather data with crime records provides a unique opportunity to explore the 
   <img width="724" src='Analysis/Images/IMG_02_Crimes_by_amount.png' alt="Logo_02">
 </p>
 
-#### 🔍 Mostly Happened Crime Types:
-
-**MySQL Query:**
-```
-USE LAPD_Crime_Data;
-SELECT 
-     Crm_Cd_Desc AS Crime_Type,
-     COUNT(*) AS CrimeCount
-FROM 
-  crime_data
-GROUP BY Crime_type
-HAVING CrimeCount >= "1000"
-ORDER BY CrimeCount DESC
-```
-
-
-#### 🕵️ Least Happened Crime Types:
-
-**MySQL Query:**
-```
-USE LAPD_Crime_Data;
-SELECT 
-     Crm_Cd_Desc AS Crime_Type,
-     COUNT(*) AS CrimeCount
-FROM 
-  crime_data
-GROUP BY Crime_type
-HAVING CrimeCount < "1000"
-ORDER BY CrimeCount DESC
-```
-
-<p align="center">
-  <img width="724" src='Analysis/Images/IMG_03_Least_Crimes.png' alt="Logo_02">
-</p>
 
 
 ### ⏰ Crime vs Time:
@@ -186,6 +152,10 @@ Below is a graph depicting the distribution of crimes committed by the hour of t
 <p align="center">
   <img width="724" src='Analysis/Images/IMG_01_Crime_by_hour.png' alt="Logo_02">
 </p>
+
+
+
+
 
 #### 📅 Crimes Committed According to Day of the Week:
 
