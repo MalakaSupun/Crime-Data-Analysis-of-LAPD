@@ -180,6 +180,9 @@ ORDER BY CrimeCount DESC
 </p>
 
 #### ⏱️ Crimes Committed According to Hour:
+
+Below is a graph depicting the distribution of crimes committed by the hour of the day. It clearly illustrates a distinct pattern, highlighting the differences in crime rates between daytime and nighttime. The analysis reveals that certain hours, particularly 5pm to 9pm time period, experience higher crime rates compared to other times of the day.
+
 <p align="center">
   <img width="724" src='Analysis/Images/IMG_01_Crime_by_hour.png' alt="Logo_02">
 </p>
