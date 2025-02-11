@@ -273,11 +273,32 @@ ORDER BY CrimeCount DESC
 </p>
 
 ### 📍 Crimes and Locations:
+<p align="justify">
+  The analysis of crime locations provides valuable insights into the spatial 
+  distribution of criminal activities in Los Angeles. By examining the 
+  geographic patterns of crimes, we can identify hotspots and areas with 
+  higher crime rates. This information is crucial for law enforcement 
+  agencies to allocate resources effectively and implement targeted 
+  interventions. The following analysis highlights the locations with 
+  the highest crime rates, helping to understand the spatial dynamics 
+  of crime in the city.
+</p>
 
+**MySQL Query:**
+```
+USE LAPD_Crime_Data;
+SELECT 
+     AREA_NAME AS Area,
+     COUNT(*) AS CrimeCount
+FROM 
+  crime_data
+GROUP BY Area
+ORDER BY CrimeCount DESC
 
+```
 
 <p align="center">
-  <img width="724" src='Analysis/Images' alt="Logo_02">
+  <img width="724" src='Analysis/Image' alt="Logo_02">
 </p>
 
 
