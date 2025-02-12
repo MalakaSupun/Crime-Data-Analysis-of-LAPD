@@ -208,18 +208,36 @@ LIMIT 1000000;
 
 
 #### 📅 Crimes Committed According to Day of the Week:
+Analyzing the distribution of crimes committed on different days of the week reveals significant patterns that can inform law enforcement strategies. By identifying the days with higher crime rates, authorities can allocate resources more effectively and implement targeted interventions. This analysis provides valuable insights into the weekly crime trends, helping to enhance public safety measures and reduce crime rates in Los Angeles.
 
 <p align="center">
   <img width="724" src='Analysis/Images/IMG_04_Crime_by_week.png' alt="Logo_02">
 </p>
 
-### 🌡️ Crimes and Temperature:
 
+### 🌡️ Crimes and Temperature:
+The analysis of the relationship between crimes and temperature reveals interesting insights into how weather conditions might influence criminal activities. Despite the detailed examination, there is no visible pattern or style that clearly illustrates a direct correlation between temperature variations and crime rates. This suggests that other factors might play a more significant role in influencing crime occurrences. Further investigation and more granular data might be required to uncover any subtle trends or hidden patterns in this context.
+
+**MySQL Query:**
+```
+SELECT 
+    Crm_Cd_Desc AS `Crime Type`,
+    Temperature_C AS `Temperature (°C)`
+FROM 
+    crime_data
+WHERE 
+    Temperature_C IS NOT NULL 
+    AND Crm_Cd_Desc IS NOT NULL;
+```
 <p align="center">
-  <img width="724" src='Analysis/Images/IMG_03_Crime_by_temp.png' alt="Logo_02">
+  <img width="724" src='Analysis/Images/IMG_10_Crime_by_Temp.png' alt="Logo_02">
 </p>
 
+
 ### 🔍 Mostly Happened Crime Types:
+<p align="justify">
+  The analysis of the most frequently committed crimes in Los Angeles provides critical insights into the types of criminal activities that are most prevalent in the city. By identifying and examining these common crimes, law enforcement agencies can better understand the underlying factors contributing to their occurrence and develop targeted strategies to address them. This section highlights the top crime types based on their frequency, offering a detailed overview of the most common criminal activities. This information is essential for prioritizing law enforcement efforts, allocating resources effectively, and implementing preventive measures to reduce the overall crime rate in Los Angeles.
+  </p>
 
 **MySQL Query:**
 ```
@@ -298,7 +316,7 @@ ORDER BY CrimeCount DESC
 ```
 
 <p align="center">
-  <img width="724" src='Analysis/Image' alt="Logo_02">
+  <img width="724" src='Analysis/Images/IMG_09_Crime_by_Area.png' alt="Logo_02">
 </p>
 
 
