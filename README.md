@@ -405,7 +405,7 @@ ORDER BY CrimeCount DESC
   <img width="724" src='Analysis/Images/IMG_09_Crime_by_Area.png' alt="Logo_02">
 </p>
 
-### Locations of Crimes 
+### Locations of Crimes :  
 
 ```
 SELECT 
@@ -430,19 +430,19 @@ ORDER BY
 
 ```
 
-| Year | Month | Crime Description                        | Crime Count | Locations                                                                                   |
-|------|-------|------------------------------------------|-------------|---------------------------------------------------------------------------------------------|
-| 2020 | 1     | BATTERY - SIMPLE ASSAULT                 | 2071        | (33.7096,-118.292),(33.7105,-118.286),(33.7234,...                                          |
-| 2020 | 1     | VEHICLE - STOLEN                         | 1979        | (33.7179,-118.289),(33.7225,-118.316),(33.7251,...                                          |
-| 2020 | 1     | BURGLARY FROM VEHICLE                    | 1962        | (33.7096,-118.292),(33.7143,-118.291),(33.7234,...                                          |
-| 2020 | 1     | THEFT PLAIN - PETTY ($950 & UNDER)       | 1635        | (33.7105,-118.286),(33.7136,-118.29),(33.7161,...                                          |
-| 2020 | 1     | THEFT OF IDENTITY                        | 1580        | (33.7106,-118.291),(33.7115,-118.288),(33.7115,...                                          |
-| ...  | ...   | ...                                      | ...         | ...                                                                                         |
-| 2024 | 12    | PANDERING                                | 1           | (33.9765,-118.283)                                                                          |
-| 2024 | 12    | RECKLESS DRIVING                         | 1           | (34.3028,-118.427)                                                                          |
-| 2024 | 12    | THEFT PLAIN - ATTEMPT                    | 1           | (33.9529,-118.27)                                                                           |
-| 2024 | 12    | VEHICLE - ATTEMPT STOLEN                 | 1           | (33.93,-118.378)                                                                            |
-| 2024 | 12    | VIOLATION OF RESTRAINING ORDER           | 1           | (34.0447,-118.404)                                                                          |
+| Year | Month | Crime Description                        | Crime Count | Locations                           |
+|------|-------|------------------------------------------|-------------|-------------------------------------|
+| 2020 | 1     | BATTERY - SIMPLE ASSAULT                 | 2071        | (33.7096,-118.292),(33.7234,...     |
+| 2020 | 1     | VEHICLE - STOLEN                         | 1979        | (33.7179,-118.289),(33.7251,...     |
+| 2020 | 1     | BURGLARY FROM VEHICLE                    | 1962        | (33.7096,-118.292),(33.7234,...     |
+| 2020 | 1     | THEFT PLAIN - PETTY ($950 & UNDER)       | 1635        | (33.7105,-118.286),(33.7161,...     |
+| ...  | ...   | ...                                      | ...         | ...                                 |
+| 2024 | 12    | RECKLESS DRIVING                         | 1           | (34.3028,-118.427)                  |
+| 2024 | 12    | THEFT PLAIN - ATTEMPT                    | 1           | (33.9529,-118.27)                   |
+| 2024 | 12    | VEHICLE - ATTEMPT STOLEN                 | 1           | (33.93,-118.378)                    |
+| 2024 | 12    | VIOLATION OF RESTRAINING ORDER           | 1           | (34.0447,-118.404)                  |
+
+### Locations of "BATTERY - SIMPLE ASSAULT" Happened in 2024 November:
 
 <p align="center">
   <img width="724" src='Analysis/Other/Maps_png/BATTERY - SIMPLE ASSAULT_IN_2024_11.png' alt="Logo_02">
